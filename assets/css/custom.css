@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+.btn-primary {
+    color: #fff;
+    background-color: #100940;
+    border-color: #100940;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #36a99d;
+    border-color: #36a99d
+}
+
+.btn-primary.focus,.btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(0,123,255,.5)
+}
+a.vanillatop {
+  background-color: #1c86f2;
+  border-radius: 50%;
+  bottom: 40px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  position: fixed;
+  right: 10px;
+  text-align: center;
+  transform: translateX(120px);
+  transition: 1s all;
+  width: 40px;
+  z-index: 9999;
+}
+a.vanillatop::before {
+  color: #fff;
+  content: "▲";
+  font-size: 120%;
+}
+a.vanillatop:link {
+  text-decoration: none;
+}
+a.vanillatop:hover {
+  background-color: #3995f4;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+}
+@media only screen and (min-width: 768px) {
+  a.vanillatop {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  a.vanillatop {
+    bottom: 30px;
+    height: 50px;
+    line-height: 50px;
+    right: 30px;
+    width: 50px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #d1{
+   height:150px;
+     }
+}      
+
+@media screen and (max-width: 800px) {
+#d1{
+   height:150px;
+  }
+}
+
+   @media screen and (max-width: 600px) {
+   #d1{
+       height:50px;
+      }
+}
+.bg-primary {
+  background-color: #0f083f !important;
+  color: white;
+}
+
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  border-radius: 10px !important;
+  border: none;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-header {
+  border-radius: 10px 10px 0 0 !important;
+  background-color: #FCCF23;
+  border: 0;
+}
+
+.card-footer {
+  border-radius: 0 0 10px 10px !important;
+  background-color: white;
+  border: 0;
+}
+
+.card-footer p {
+  display: none;
+}
+
+.card-footer button {
+  color: #FCCF23;
+  background-color: #52134B;
+  font-weight: 500;
+  border: 0;
+  border-radius: 5px;
+  padding: 8px 15px;
+  transition: all .5s;
+}
+
+.card-footer button:hover {
+  color: #52134B;
+  background-color: #FCCF23;
+  transition: all .5;
+}
+
+/*delete the following codes to make footer totally invisible*/
+.card-footer {
+  border-top: dashed 2px rgba(0, 0, 0, .05);
+}
+
+.card-footer p {
+  display: block;
+  color: rgba(0, 0, 0, .1);
+}
+
+.mar-btm {
+  margin-bottom: 15px;
+}
+
+h2,
+.h2 {
+  font-size: 28px;
+}
+
+.small,
+small {
+  font-size: 85%;
+}
+
+.text-sm {
+  font-size: .9em;
+}
+
+.text-thin {
+  font-weight: 300;
+}
+
+.text-semibold {
+  font-weight: 600;
+}
+
+.main-color-bg-1 {
+  background-color: #0f083f;
+}
+
+.main-color-bg-2 {
+  background-color: #00a99d;
+}
+
+.main-color-1 {
+  color: #0f083f;
+}
+
+.main-color-2 {
+  color: #00a99d;
+}
+
+.text-right {
+  text-align: right !important;
+  direction: rtl;
+}
+
+.flaticon-support:before {
+  content: "\f139";
+}
+
+.flaticon-target:before {
+  content: "\f1c4";
+}
+
+.flaticon-male-job-search-symbol:before {
+  content: "\f1d1";
+}
+
+.phone-icon {
+  font-size: large !important
+}
+
+.whats-float {
+  position: fixed;
+  transform: translate(108px, 0px);
+  bottom: 20%;
+  right: 0;
+  width: 150px;
+  overflow: hidden;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 4px 0 0 4px;
+  z-index: 10;
+  transition: all 0.5s ease-in-out;
+  vertical-align: middle
+}
+
+.whats-float a span {
+  color: white;
+  font-size: 15px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  position: absolute;
+  line-height: 16px;
+  font-weight: bolder;
+}
+
+.whats-float i {
+  font-size: 30px;
+  color: white;
+  line-height: 30px;
+  padding: 10px;
+  transform: rotate(0deg);
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+
+}
+
+.whats-float:hover {
+  color: #FFFFFF;
+  transform: translate(0px, 0px);
+}
+
+.whats-float:hover i {
+  transform: rotate(360deg);
+}
+
+/* For smartphones */
+@media (max-width: 480px) {
+  .tp-mask-wrap {
+    top: 70px;
+  }
+
+  .styled-title {
+    display: none
+  }
+}
