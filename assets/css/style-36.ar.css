@@ -3033,6 +3033,11 @@ h1,h2,h3,h4,h5,h6 {
 	font-size:16px;
 	line-height:1.7em;
 	margin-bottom:20px;
+	font-family: 'Bill-Smith-Demo', sans-serif;
+}
+
+p {
+	font-family: 'Bill-Smith-Demo', sans-serif;
 }
 
 .news-block .inner-box .read-more{
